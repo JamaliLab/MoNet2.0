@@ -11,4 +11,6 @@ Dilated CNN classifier for anomlous diffusion models
 
 -`run_monet2_fd.py` runs the trained MoNet2.0 to generate a lower triangular matrix of Frechet distance values. Each cell in the matrix represents the Frechet distance between the second-last layer of MoNet2.0 with input trajectories from different diffusion classes.
 
+-A trained MoNet2.0 model is present in the repository as `monet2.keras`. To train MoNet2.0 from scratch, use the `monet_train.py` file. Download the training dataset from Huggingface: [https://huggingface.co/datasets/JamaliLab/MoNet2.0](https://huggingface.co/datasets/JamaliLab/MoNet2.0)
+
 For generating and analyzing trajectories using LEONARDO, check out [https://github.com/JamaliLab/LEONARDO](https://github.com/JamaliLab/LEONARDO).
