@@ -2,9 +2,9 @@
 Dilated CNN classifier for anomlous diffusion models
 
 ## Installation
--First create a conda enviornment for MoNet2.0 with python 3.10.14: `conda create -n monet2 python=3.10.14`
+- First create a conda enviornment for MoNet2.0 with python 3.10.14: `conda create -n monet2 python=3.10.14`
 
--Then install the requirements: `pip install -r requirements.txt`
+- Then install the requirements: `pip install -r requirements.txt`
 
 ## Usage
 - `run_monet2_classification.py` runs the trained MoNet2.0 to generate the confusion matrix for the model showing the model classification performance, and a bar chart showing the percentage of LEONARDO-Generated trajectories classified as different diffusion classes.
