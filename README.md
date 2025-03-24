@@ -20,6 +20,6 @@ Dilated CNN classifier for anomlous diffusion models
   - Lévy Walk (LW)
   - Real experimental LPTEM trajectories of gold nanorods diffusing in water
 
-FBM, CTRW, ATTM, SBM, and LW were simulated using the models from the Anomalous Diffusion (AnDi) challenge ([https://github.com/AnDiChallenge](https://github.com/AnDiChallenge)) without additional noise
+  FBM, CTRW, ATTM, SBM, and LW were simulated using the models from the Anomalous Diffusion (AnDi) challenge ([https://github.com/AnDiChallenge](https://github.com/AnDiChallenge)) without additional noise
 
 For generating and analyzing particle motion trajectories using LEONARDO, check out [https://github.com/JamaliLab/LEONARDO](https://github.com/JamaliLab/LEONARDO).
