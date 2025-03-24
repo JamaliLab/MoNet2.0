@@ -13,4 +13,4 @@ Dilated CNN classifier for anomlous diffusion models
 
 -A trained MoNet2.0 model is present in the repository as `monet2.keras`. To train MoNet2.0 from scratch, use the `monet_train.py` file. Download the training dataset from Huggingface: [https://huggingface.co/datasets/JamaliLab/MoNet2.0](https://huggingface.co/datasets/JamaliLab/MoNet2.0)
 
-For generating and analyzing trajectories using LEONARDO, check out [https://github.com/JamaliLab/LEONARDO](https://github.com/JamaliLab/LEONARDO).
+For generating and analyzing particle motion trajectories using LEONARDO, check out [https://github.com/JamaliLab/LEONARDO](https://github.com/JamaliLab/LEONARDO).
