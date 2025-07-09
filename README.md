@@ -31,7 +31,7 @@ For generating and analyzing particle motion trajectories using LEONARDO, check 
 - Model file: `monet2.keras`
 
 ### MoNet2.0 (532 timepoints)
-- Trained only on simulated trajectories of length 532 timepoints.
+- Trained only on simulated trajectories (BM, FBM, CTRW, ATTM, SBM, LW) of length 532 timepoints.
 - Located in the folder: `MoNet2.0 (532 timepoints)/`
 - Model file: `monet2_532.keras`
 - Architecture file: `monet2_532_architecture.py`
