@@ -23,3 +23,15 @@ Dilated CNN classifier for anomlous diffusion models
   FBM, CTRW, ATTM, SBM, and LW were simulated using the models from the Anomalous Diffusion (AnDi) challenge ([https://github.com/AnDiChallenge](https://github.com/AnDiChallenge)) without additional noise
 
 For generating and analyzing particle motion trajectories using LEONARDO, check out [https://github.com/JamaliLab/LEONARDO](https://github.com/JamaliLab/LEONARDO).
+
+## Model Variants
+
+### MoNet2.0 (200 timepoints)
+- Trained on simulated and real experimental LPTEM trajectories of length 200 timepoints.
+- Model file: `monet2.keras`
+
+### MoNet2.0 (532 timepoints)
+- Trained only on simulated trajectories of length 532 timepoints.
+- Located in the folder: `MoNet2.0 (532 timepoints)/`
+- Model file: `monet2_532.keras`
+- Architecture file: `monet2_532_architecture.py`
